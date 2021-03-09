@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/abu2">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350px"
+        android:text="Halaman Utama"
+        android:textAlignment="center"
+        android:textSize="150px"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/articelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="109dp"
+        android:layout_centerHorizontal="true"
+        android:text="Artikel"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/bioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/articelButton"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Biodata"
+        android:textSize="50px" />
+</RelativeLayout>
